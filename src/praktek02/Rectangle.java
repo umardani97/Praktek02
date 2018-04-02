@@ -20,4 +20,9 @@ public class Rectangle {
     void cetakLuas(){
         System.out.println("Luasnya adalah :"+hitungluas());
     }
+
+    public Rectangle() {
+        panjang=5;
+        lebar=2;
+    }
 }
